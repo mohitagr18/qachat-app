@@ -23,7 +23,7 @@ def get_response(question):
 st.set_page_config(page_title="Chatbot App")
 st.header("Q&A Chatbot")
 st.write("")
-st.markdown("###### Have a question?  This friendly Q&A Chatbot provides a simple, conversational way to get the information you're looking for.")
+st.markdown("###### Have a question?  This friendly chatbot, powered by Google's Gemini 1.5 Flash, provides a simple and conversational way to get the information you're looking for.")
 
 # Initialize session state and query count for history
 if "chat_history" not in st.session_state:
